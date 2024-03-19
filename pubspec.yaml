@@ -1,0 +1,50 @@
+name: helloworld
+description: A new Flutter project.
+version: 1.0.0+1
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  animate_do: ^3.1.2
+  openai_api: ^0.1.0
+  video_player: ^2.3.0
+  http: ^0.13.5
+  pdf: ^3.4.0
+  mailer: ^5.0.0
+  intl: ^0.17.0
+  path_provider: ^2.0.2
+  url_launcher: ^6.0.12
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.13.1"
+  carousel_slider: ^4.2.1
+  flutter_lints: ^2.0.2
+flutter_launcher_icons:
+      android: "launcher_icon"
+      ios: true
+      image_path: "assets/icon/Untitled.png"
+
+flutter:
+  uses-material-design: true
+assets:
+  - video/
+  - android/app/src/images/
+
+  #  - images/a_dot_ham.jpeg
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  - flutter_launcher_icons: "^0.13.1"
+
+
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+
